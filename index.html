@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Math Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay">
+    <div class="quiz-container">
+      <h1>🚀 Welcome to the Math Quiz!</h1>
+      <p class="intro-question">Before we begin: What's your name?</p>
+      <input type="text" id="username" placeholder="Enter your name" />
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div class="quiz-container hidden" id="quizSection">
+      <h2 id="greeting"></h2>
+      <div id="question-container">
+        <p id="question"></p>
+        <div id="options"></div>
+      </div>
+      <button id="next-btn" onclick="nextQuestion()">Next</button>
+      <p id="feedback"></p>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ by the Algonquin Programming Club</p>
+      <p>Email: <a href="mailto:harp0183@algonquinlive.com">harp0183@algonquinlive.com</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
