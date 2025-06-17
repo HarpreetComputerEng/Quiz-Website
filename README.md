@@ -1,6 +1,6 @@
 # 🧠 Math Quiz Web App
 
-This is a simple and interactive web-based **Math Quiz** built using HTML, CSS, and JavaScript. It features a visually appealing background, personalized user input, and a series of basic math questions. The quiz provides immediate feedback and finishes with a completion message. A custom footer displays developer credentials.
+This is leinteractive web-based **Math Quiz** built using HTML, CSS, and JavaScript. It features a visually appealing background, personalized user input, and a series of basic math questions. The quiz provides immediate feedback and finishes with a completion message. A custom footer displays developer credentials.
 
 ---
 
